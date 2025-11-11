@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://telegram-mini-apps.github.io/reactjs-template",
+  "homepage": "https://PKukushkin.github.io/telegram-mini-app1",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -15,6 +15,7 @@
     "predeploy": "npm run build"
   },
   "dependencies": {
+    "@telegram-apps/sdk": "^3.11.8",
     "@telegram-apps/telegram-ui": "^2.1.9",
     "@tma.js/sdk-react": "^3.0.7",
     "@tonconnect/ui-react": "^2.2.0",
